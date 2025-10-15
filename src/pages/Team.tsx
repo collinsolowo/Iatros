@@ -79,7 +79,7 @@ export default function Team() {
           <div className="inline-block px-6 py-2 bg-white/10 backdrop-blur-md rounded-full text-sm font-semibold mb-6 border border-white/20">
             <span className="text-blue-100">WORLD-CLASS SPECIALISTS</span>
           </div>
-          <h1 className="text-6xl font-bold mb-6 text-white drop-shadow-2xl">Meet Our Expert Team</h1>
+          <h1 className="text-4xl font-bold mb-6 text-white drop-shadow-2xl">Meet Our Expert Team</h1>
           <p className="text-2xl text-blue-50 max-w-3xl mx-auto leading-relaxed">
             World-class fertility specialists dedicated to helping you achieve your dream of parenthood
           </p>

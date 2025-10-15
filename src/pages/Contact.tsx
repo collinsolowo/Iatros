@@ -56,7 +56,7 @@ export default function Contact() {
           <div className="inline-block px-6 py-2 bg-white/10 backdrop-blur-md rounded-full text-sm font-semibold mb-6 border border-white/20">
             <span className="text-blue-100">START YOUR JOURNEY</span>
           </div>
-          <h1 className="text-6xl font-bold mb-6 text-white drop-shadow-2xl">Book Your Consultation</h1>
+          <h1 className="text-4xl font-bold mb-6 text-white drop-shadow-2xl">Book Your Consultation</h1>
           <p className="text-2xl text-blue-50 max-w-3xl mx-auto leading-relaxed">
             Take the first step towards your fertility journey. Our team is here to support you every step of the way.
           </p>

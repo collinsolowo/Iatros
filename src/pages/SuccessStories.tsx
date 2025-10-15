@@ -69,7 +69,7 @@ export default function SuccessStories() {
           <div className="inline-block px-6 py-2 bg-white/10 backdrop-blur-md rounded-full text-sm font-semibold mb-6 border border-white/20">
             <span className="text-teal-100">INSPIRING JOURNEYS</span>
           </div>
-          <h1 className="text-6xl font-bold mb-6 text-white drop-shadow-2xl">Success Stories</h1>
+          <h1 className="text-4xl font-bold mb-6 text-white drop-shadow-2xl">Success Stories</h1>
           <p className="text-2xl text-blue-50 max-w-3xl mx-auto leading-relaxed">
             Real families, real joy. Read about the journeys of those who found hope and happiness with Iatros
           </p>

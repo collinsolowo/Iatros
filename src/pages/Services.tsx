@@ -233,7 +233,7 @@ export default function Services() {
           <div className="inline-block px-6 py-2 bg-white/10 backdrop-blur-md rounded-full text-sm font-semibold mb-6 border border-white/20">
             <span className="text-blue-100">COMPREHENSIVE FERTILITY SOLUTIONS</span>
           </div>
-          <h1 className="text-6xl font-bold mb-6 text-white drop-shadow-2xl">Our Fertility Services</h1>
+          <h1 className="text-4xl font-bold mb-6 text-white drop-shadow-2xl">Our Fertility Services</h1>
           <p className="text-2xl text-blue-50 max-w-3xl mx-auto leading-relaxed">
             Comprehensive fertility treatments backed by advanced technology and compassionate care
           </p>
