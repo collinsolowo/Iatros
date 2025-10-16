@@ -16,22 +16,22 @@ export default function Home() {
       <section className="relative py-16 sm:py-24 lg:py-32 px-4 sm:px-6 overflow-hidden">
         <div className="absolute inset-0 z-0">
           <img
-            src="https://images.pexels.com/photos/6393342/pexels-photo-6393342.jpeg?auto=compress&cs=tinysrgb&w=1920"
+            src="/iatros.png"
             alt="Happy family"
-            className="w-full h-full object-cover"
+            className="w-full h-full object-cover object-center"
           />
-          <div className="absolute inset-0 bg-gradient-to-r from-blue-900/95 via-blue-800/90 to-blue-900/80 backdrop-blur-sm"></div>
+          <div className="absolute inset-0 bg-gradient-to-r from-black/60 via-black/50 to-black/40"></div>
         </div>
         <div className="max-w-7xl mx-auto relative z-10">
           <div className="grid md:grid-cols-2 gap-8 lg:gap-12 items-center">
             <div className="text-white">
               <div className="inline-block px-3 sm:px-4 py-2 bg-white/10 backdrop-blur-md rounded-full text-xs sm:text-sm font-medium mb-4 sm:mb-6 border border-white/20">
-                <span className="text-blue-200">Your Journey to Parenthood Starts Here</span>
+                <span className="text-gray-200">Your Journey to Parenthood Starts Here</span>
               </div>
-              <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-4 sm:mb-6 drop-shadow-lg">
+              <h1 className="text-3xl sm:text-4xl text-white md:text-5xl lg:text-6xl font-bold leading-tight mb-4 sm:mb-6 drop-shadow-lg">
                 Compassionate IVF Care for Families
               </h1>
-              <p className="text-base sm:text-lg md:text-xl text-blue-50 mb-6 sm:mb-8 leading-relaxed">
+              <p className="text-base sm:text-lg md:text-xl text-gray-50 mb-6 sm:mb-8 leading-relaxed">
                 Expert fertility treatments and support for aspiring parents, backed by world-class technology and compassionate care
               </p>
               <div className="flex flex-col sm:flex-row flex-wrap gap-3 sm:gap-4">
@@ -54,15 +54,15 @@ export default function Home() {
               <div className="grid grid-cols-3 gap-3 sm:gap-4 md:gap-6 mt-8 sm:mt-12">
                 <div className="bg-white/10 backdrop-blur-md rounded-lg sm:rounded-xl p-3 sm:p-4 border border-white/20">
                   <div className="text-xl sm:text-2xl md:text-3xl font-bold mb-1">65%</div>
-                  <div className="text-xs sm:text-sm text-blue-100">Success Rate</div>
+                  <div className="text-xs sm:text-sm text-gray-100">Success Rate</div>
                 </div>
                 <div className="bg-white/10 backdrop-blur-md rounded-lg sm:rounded-xl p-3 sm:p-4 border border-white/20">
                   <div className="text-xl sm:text-2xl md:text-3xl font-bold mb-1">5000+</div>
-                  <div className="text-xs sm:text-sm text-blue-100">Families Helped</div>
+                  <div className="text-xs sm:text-sm text-gray-100">Families Helped</div>
                 </div>
                 <div className="bg-white/10 backdrop-blur-md rounded-lg sm:rounded-xl p-3 sm:p-4 border border-white/20">
                   <div className="text-xl sm:text-2xl md:text-3xl font-bold mb-1">15+</div>
-                  <div className="text-xs sm:text-sm text-blue-100">Years Excellence</div>
+                  <div className="text-xs sm:text-sm text-gray-100">Years Excellence</div>
                 </div>
               </div>
             </div>
@@ -225,11 +225,11 @@ export default function Home() {
                 alt="Consultation"
                 className="w-full h-full object-cover"
               />
-              <div className="absolute inset-0 bg-gradient-to-r from-blue-900/95 to-blue-700/90"></div>
+              <div className="absolute inset-0 bg-gradient-to-r from-black/70 to-black/60"></div>
             </div>
             <div className="relative z-10 py-12 sm:py-16 md:py-20 px-4 sm:px-8 md:px-16 text-center text-white">
               <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-4 sm:mb-6 px-2">Ready to Begin Your Fertility Journey?</h2>
-              <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-blue-100 mb-6 sm:mb-8 md:mb-10 max-w-3xl mx-auto px-4">Book Your Consultation Today and take the first step towards your dream of parenthood</p>
+              <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-gray-100 mb-6 sm:mb-8 md:mb-10 max-w-3xl mx-auto px-4">Book Your Consultation Today and take the first step towards your dream of parenthood</p>
               <div className="flex flex-col sm:flex-row flex-wrap gap-3 sm:gap-4 justify-center">
                 <Link
                   to="/contact"
