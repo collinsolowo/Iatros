@@ -68,7 +68,7 @@ export default function Team() {
       <section className="relative py-32 px-4 overflow-hidden">
         <div className="absolute inset-0 z-0">
           <img
-            src="https://images.pexels.com/photos/7579831/pexels-photo-7579831.jpeg?auto=compress&cs=tinysrgb&w=1920"
+            src="/iatros.png"
             alt="Medical team"
             className="w-full h-full object-cover"
           />

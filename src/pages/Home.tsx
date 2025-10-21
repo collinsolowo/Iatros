@@ -16,7 +16,7 @@ export default function Home() {
       <section className="relative py-16 sm:py-24 lg:py-32 px-4 sm:px-6 overflow-hidden">
         <div className="absolute inset-0 z-0">
           <img
-            src="/iatros.png"
+            src="/bruv.png"
             alt="Happy family"
             className="w-full h-full object-cover object-center"
           />
