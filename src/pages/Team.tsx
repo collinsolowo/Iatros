@@ -66,15 +66,11 @@ export default function Team() {
   return (
     <div className="min-h-screen bg-white">
       <section className="relative py-32 px-4 overflow-hidden">
-        <div className="absolute inset-0 z-0">
-          <img
-            src="/iatros.png"
-            alt="Medical team"
-            className="w-full h-full object-cover"
-          />
-          <div className="absolute inset-0 bg-gradient-to-br from-slate-900/90 via-blue-900/90 to-blue-800/85"></div>
-          <div className="absolute inset-0" style={{ backdropFilter: 'blur(3px)' }}></div>
-        </div>
+<div className="absolute inset-0 z-0">
+  <img src="/iatros.png" alt="Medical team" className="w-full h-full object-cover" />
+  <div className="absolute inset-0 bg-black/30 backdrop-blur-sm backdrop-saturate-110 border border-white/6" />
+</div>
+
         <div className="max-w-7xl mx-auto text-center relative z-10">
           <div className="inline-block px-6 py-2 bg-white/10 backdrop-blur-md rounded-full text-sm font-semibold mb-6 border border-white/20">
             <span className="text-blue-100">WORLD-CLASS SPECIALISTS</span>
